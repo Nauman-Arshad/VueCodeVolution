@@ -5,6 +5,8 @@
   <DemoTwo/>
   <Methods/>
   <VModel/>
+  <br/>
+  <Watch/>
 </template>
 
 <script>
@@ -14,6 +16,7 @@ import DemoTwo from './components/DemoTwo.vue';
 import Methods from './components/Methods.vue';
 import VModel from './components/VModel.vue';
 import Computed from './components/Computed.vue';
+import Watch from './components/Watch.vue';
 
 export default {
   name: 'App',
@@ -23,7 +26,8 @@ export default {
     DemoTwo,
     Methods,
     VModel,
-    Computed
+    Computed,
+    Watch
 }
 }
 </script>
