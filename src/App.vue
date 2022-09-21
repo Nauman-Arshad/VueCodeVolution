@@ -1,4 +1,5 @@
 <template>
+  <Computed/>
   <Data/>
   <DemoOne/>
   <DemoTwo/>
@@ -12,6 +13,7 @@ import DemoOne from './components/DemoOne.vue';
 import DemoTwo from './components/DemoTwo.vue';
 import Methods from './components/Methods.vue';
 import VModel from './components/VModel.vue';
+import Computed from './components/Computed.vue';
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     DemoOne,
     DemoTwo,
     Methods,
-    VModel
+    VModel,
+    Computed
 }
 }
 </script>
