@@ -3,6 +3,7 @@
   <DemoOne/>
   <DemoTwo/>
   <Methods/>
+  <VModel/>
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import Data from './components/Data.vue';
 import DemoOne from './components/DemoOne.vue';
 import DemoTwo from './components/DemoTwo.vue';
 import Methods from './components/Methods.vue';
+import VModel from './components/VModel.vue';
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     Data,
     DemoOne,
     DemoTwo,
-    Methods
+    Methods,
+    VModel
 }
 }
 </script>
